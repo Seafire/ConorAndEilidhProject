@@ -1,0 +1,1013 @@
+﻿Log file open, 09/21/16 19:56:25
+LogInit:Display: Running engine for game: JudasAndPontius
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1545143826) SRandInit(-1545143825).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080401
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.09.21-18.56.25:520][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.21-18.56.25:520][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.21-18.56.25:530][  0]LogInit: Computer: DESKTOP-N6TRJQS
+[2016.09.21-18.56.25:530][  0]LogInit: User: Conor
+[2016.09.21-18.56.25:530][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.09.21-18.56.25:530][  0]LogInit: High frequency timer resolution =3.312783 MHz
+[2016.09.21-18.56.25:530][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.09.21-18.56.25:530][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.21-18.56.25:530][  0]LogMemory: Process Physical Memory: 190.40 MB used, 190.40 MB peak
+[2016.09.21-18.56.25:530][  0]LogMemory: Process Virtual Memory: 195.15 MB used, 195.15 MB peak
+[2016.09.21-18.56.25:530][  0]LogMemory: Physical Memory: 4905.54 MB used, 8145.47 MB total
+[2016.09.21-18.56.25:530][  0]LogMemory: Virtual Memory: 553.27 MB used, 134217728.00 MB total
+[2016.09.21-18.56.25:556][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.09.21-18.56.25:930][  0]LogD3D11RHI: D3D11 adapters:
+[2016.09.21-18.56.25:962][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
+[2016.09.21-18.56.25:962][  0]LogD3D11RHI:       1505/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.09.21-18.56.25:964][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.09.21-18.56.25:964][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.09.21-18.56.25:964][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.09.21-18.56.25:968][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.09.21-18.56.25:968][  0]LogD3D11RHI:     GPU DeviceId: 0x1185 (for the marketing name, search the web for "GPU Device Id")
+[2016.09.21-18.56.25:968][  0]LogWindows: EnumDisplayDevices:
+[2016.09.21-18.56.25:968][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:1 D:1)
+[2016.09.21-18.56.25:968][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2016.09.21-18.56.25:968][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2016.09.21-18.56.25:968][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2016.09.21-18.56.25:968][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
+[2016.09.21-18.56.25:968][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2016.09.21-18.56.25:968][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2016.09.21-18.56.25:968][  0]LogRHI: Texture pool is 1053 MB (70% of 1505 MB)
+[2016.09.21-18.56.25:984][  0]LogD3D11RHI: Async texture creation enabled
+[2016.09.21-18.56.26:001][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.09.21-18.56.26:001][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Intermediate/Shaders/WorkingDirectory/11912/).
+[2016.09.21-18.56.26:001][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Conor/AppData/Local/Temp/UnrealShaderWorkingDir/3CFD61D24B01F2F9BE60B3AF4568C0EE/'.
+[2016.09.21-18.56.26:001][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.21-18.56.26:845][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.21-18.56.26:854][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.21-18.56.26:863][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.21-18.56.26:873][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.21-18.56.26:882][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.21-18.56.26:889][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.21-18.56.26:897][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.21-18.56.26:904][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.21-18.56.26:911][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.21-18.56.26:918][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.21-18.56.26:926][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.21-18.56.26:941][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.09.21-18.56.26:941][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.21-18.56.26:942][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.21-18.56.26:963][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.21-18.56.26:970][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.09.21-18.56.26:977][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.09.21-18.56.26:984][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.09.21-18.56.26:992][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.09.21-18.56.26:992][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.21-18.56.27:075][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.21-18.56.27:118][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.21-18.56.27:118][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.09.21-18.56.27:118][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Repositories/ConorAndEilidhProject/JudasAndPontius/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.21-18.56.27:118][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.21-18.56.27:118][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Repositories/ConorAndEilidhProject/JudasAndPontius/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.09.21-18.56.27:118][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.09.21-18.56.27:133][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.09.21-18.56.27:145][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Conor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.09.21-18.56.27:328][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.21-18.56.27:329][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.09.21-18.56.27:474][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.21-18.56.27:474][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.21-18.56.27:474][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.09.21-18.56.27:693][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2016.09.21-18.56.27:711][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.014682 seconds
+[2016.09.21-18.56.27:715][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.09.21-18.56.27:715][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.09.21-18.56.27:715][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.09.21-18.56.27:725][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.21-18.56.27:894][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.21-18.56.27:894][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.21-18.56.28:542][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.09.21-18.56.28:762][  0]SourceControl: Info Source control is disabled
+[2016.09.21-18.56.28:799][  0]SourceControl: Info Source control is disabled
+[2016.09.21-18.56.28:808][  0]SourceControl: Info Source control is disabled
+[2016.09.21-18.56.28:817][  0]SourceControl: Info Source control is disabled
+[2016.09.21-18.56.29:021][  0]LogEngine: Initializing Engine...
+[2016.09.21-18.56.29:022][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.21-18.56.29:022][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.21-18.56.29:149][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.09.21-18.56.29:161][  0]LogInit: XAudio2 using 'BenQ EW2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-18.56.29:176][  0]LogInit: FAudioDevice initialized.
+[2016.09.21-18.56.29:211][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.21-18.56.29:219][  0]LogInit: Texture streaming: Enabled
+[2016.09.21-18.56.29:248][  0]LogInit: Transaction tracking system initialized
+[2016.09.21-18.56.29:272][  0]BlueprintLog: New page: Editor Load
+[2016.09.21-18.56.29:418][  0]LocalizationService: Info Localization service is disabled
+[2016.09.21-18.56.29:502][  0]LogConsoleResponse:Display: 
+[2016.09.21-18.56.29:589][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.09.21-18.56.29:589][  0]LogCook:Display: Mobile HDR setting 1
+[2016.09.21-18.56.29:686][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/' took 0.01s
+[2016.09.21-18.56.29:686][  0]SourceControl: Info Source control is disabled
+[2016.09.21-18.56.29:686][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files (x86)/Epic Games/4.12/FeaturePacks/StarterContent.upack)
+[2016.09.21-18.56.29:693][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.09.21-18.56.29:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.09.21-18.56.29:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.09.21-18.56.29:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.09.21-18.56.29:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.09.21-18.56.29:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.09.21-18.56.29:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.09.21-18.56.29:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.09.21-18.56.29:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.09.21-18.56.29:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.09.21-18.56.29:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.09.21-18.56.29:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.09.21-18.56.29:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.09.21-18.56.29:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.09.21-18.56.29:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.09.21-18.56.29:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.09.21-18.56.29:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.09.21-18.56.29:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.09.21-18.56.29:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Fire01.uasset"
+[2016.09.21-18.56.29:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.09.21-18.56.29:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.09.21-18.56.29:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.09.21-18.56.29:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Light01.uasset"
+[2016.09.21-18.56.29:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.09.21-18.56.29:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Light02.uasset"
+[2016.09.21-18.56.29:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.09.21-18.56.29:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.09.21-18.56.29:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.09.21-18.56.29:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.09.21-18.56.29:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.09.21-18.56.29:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.09.21-18.56.29:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.09.21-18.56.29:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.09.21-18.56.29:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.09.21-18.56.29:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Steam01.uasset"
+[2016.09.21-18.56.29:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.09.21-18.56.29:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.09.21-18.56.29:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.09.21-18.56.29:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.09.21-18.56.29:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.09.21-18.56.29:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.09.21-18.56.29:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.09.21-18.56.29:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.09.21-18.56.29:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.09.21-18.56.29:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.09.21-18.56.29:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.09.21-18.56.29:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.09.21-18.56.29:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.09.21-18.56.29:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.09.21-18.56.29:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.09.21-18.56.29:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.09.21-18.56.29:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.09.21-18.56.30:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.09.21-18.56.30:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.09.21-18.56.30:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.09.21-18.56.30:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Maps/StarterMap.umap"
+[2016.09.21-18.56.30:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.09.21-18.56.30:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.09.21-18.56.30:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.09.21-18.56.30:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.09.21-18.56.30:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.09.21-18.56.30:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.09.21-18.56.30:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.09.21-18.56.30:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.09.21-18.56.30:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.09.21-18.56.30:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.09.21-18.56.30:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.09.21-18.56.30:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.09.21-18.56.30:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.09.21-18.56.30:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.09.21-18.56.30:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.09.21-18.56.30:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.09.21-18.56.30:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.09.21-18.56.30:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.09.21-18.56.30:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.09.21-18.56.30:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.09.21-18.56.30:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.09.21-18.56.30:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.09.21-18.56.30:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.09.21-18.56.30:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.09.21-18.56.30:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.09.21-18.56.30:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.09.21-18.56.30:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.09.21-18.56.30:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.09.21-18.56.30:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.09.21-18.56.30:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.09.21-18.56.30:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.09.21-18.56.30:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.09.21-18.56.30:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.09.21-18.56.30:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.09.21-18.56.30:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.09.21-18.56.30:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.09.21-18.56.30:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.09.21-18.56.30:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.09.21-18.56.30:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.09.21-18.56.30:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.09.21-18.56.30:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.09.21-18.56.30:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.09.21-18.56.30:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.09.21-18.56.30:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.09.21-18.56.30:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.09.21-18.56.30:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.09.21-18.56.30:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.09.21-18.56.30:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.09.21-18.56.30:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.09.21-18.56.30:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.09.21-18.56.30:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.09.21-18.56.30:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.09.21-18.56.30:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.09.21-18.56.30:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.09.21-18.56.30:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.09.21-18.56.30:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.09.21-18.56.30:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.09.21-18.56.30:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.09.21-18.56.30:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.09.21-18.56.30:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.09.21-18.56.30:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.09.21-18.56.30:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.09.21-18.56.30:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.09.21-18.56.30:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.09.21-18.56.30:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_Door.uasset"
+[2016.09.21-18.56.30:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.09.21-18.56.30:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.09.21-18.56.30:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.09.21-18.56.30:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.09.21-18.56.30:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.09.21-18.56.30:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.09.21-18.56.30:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.09.21-18.56.30:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.09.21-18.56.30:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.09.21-18.56.30:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.09.21-18.56.30:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.09.21-18.56.30:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.09.21-18.56.30:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.09.21-18.56.30:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.09.21-18.56.30:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.09.21-18.56.30:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.09.21-18.56.30:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.09.21-18.56.30:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.09.21-18.56.30:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.09.21-18.56.30:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.09.21-18.56.30:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.09.21-18.56.30:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.09.21-18.56.30:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.09.21-18.56.30:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.09.21-18.56.30:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.09.21-18.56.30:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.09.21-18.56.30:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.09.21-18.56.30:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.09.21-18.56.30:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.09.21-18.56.30:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.09.21-18.56.30:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.09.21-18.56.30:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.09.21-18.56.30:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.09.21-18.56.30:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.09.21-18.56.30:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.09.21-18.56.30:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.09.21-18.56.30:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.09.21-18.56.30:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.09.21-18.56.30:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.09.21-18.56.30:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.09.21-18.56.30:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.09.21-18.56.30:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.09.21-18.56.30:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.09.21-18.56.30:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.09.21-18.56.30:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.09.21-18.56.30:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.09.21-18.56.30:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.09.21-18.56.30:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.09.21-18.56.30:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.09.21-18.56.30:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.09.21-18.56.30:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.09.21-18.56.30:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.09.21-18.56.30:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.09.21-18.56.30:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.09.21-18.56.30:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.09.21-18.56.30:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.09.21-18.56.30:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.09.21-18.56.30:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.09.21-18.56.30:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.09.21-18.56.30:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.09.21-18.56.30:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.09.21-18.56.30:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.09.21-18.56.30:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.09.21-18.56.30:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.09.21-18.56.30:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.09.21-18.56.30:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.09.21-18.56.30:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.09.21-18.56.30:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.09.21-18.56.30:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.09.21-18.56.30:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.09.21-18.56.30:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.09.21-18.56.30:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.09.21-18.56.30:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.09.21-18.56.30:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.09.21-18.56.30:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.09.21-18.56.30:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.09.21-18.56.30:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.09.21-18.56.30:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.09.21-18.56.30:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.09.21-18.56.30:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.09.21-18.56.30:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.09.21-18.56.30:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.09.21-18.56.30:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.09.21-18.56.30:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.09.21-18.56.30:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.09.21-18.56.30:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.09.21-18.56.30:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.09.21-18.56.30:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.09.21-18.56.30:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.09.21-18.56.30:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.09.21-18.56.31:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.09.21-18.56.31:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.09.21-18.56.31:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.09.21-18.56.31:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.09.21-18.56.31:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.09.21-18.56.31:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.09.21-18.56.31:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.09.21-18.56.31:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.09.21-18.56.31:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.09.21-18.56.31:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.09.21-18.56.31:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.09.21-18.56.31:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.09.21-18.56.31:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.09.21-18.56.31:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.09.21-18.56.31:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.09.21-18.56.31:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.09.21-18.56.31:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.09.21-18.56.31:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.09.21-18.56.31:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.09.21-18.56.31:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.09.21-18.56.31:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.09.21-18.56.31:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.09.21-18.56.31:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.09.21-18.56.31:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.09.21-18.56.31:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.09.21-18.56.31:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.09.21-18.56.32:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.09.21-18.56.32:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.09.21-18.56.32:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.09.21-18.56.32:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.09.21-18.56.32:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.09.21-18.56.32:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.09.21-18.56.32:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.09.21-18.56.32:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.09.21-18.56.32:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.09.21-18.56.32:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.09.21-18.56.32:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.09.21-18.56.32:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.09.21-18.56.32:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.09.21-18.56.32:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.09.21-18.56.32:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.09.21-18.56.32:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.09.21-18.56.32:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.09.21-18.56.32:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.09.21-18.56.32:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.09.21-18.56.33:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.09.21-18.56.33:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.09.21-18.56.33:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.09.21-18.56.33:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.09.21-18.56.33:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.09.21-18.56.33:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.09.21-18.56.33:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.09.21-18.56.33:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.09.21-18.56.33:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.09.21-18.56.33:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.09.21-18.56.33:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.09.21-18.56.33:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.09.21-18.56.33:734][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.09.21-18.56.34:126][  0]LogSavePackage: Save=25.54ms
+[2016.09.21-18.56.34:127][  0]LogSavePackage: Moving 'D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Saved/Floor_400x400F1966EEA4C1175E288F0F48D91B5D802.tmp' to 'D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.09.21-18.56.34:154][  0]LogSavePackage:Display: Finished SavePackage D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.09.21-18.56.34:154][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.09.21-18.56.34:156][  0]Cmd: MAP LOAD FILE="D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.21-18.56.34:156][  0]LightingResults: New page: Lighting Build
+[2016.09.21-18.56.34:160][  0]MapCheck: New page: Map Check
+[2016.09.21-18.56.34:160][  0]LightingResults: New page: Lighting Build
+[2016.09.21-18.56.34:690][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.09.21-18.56.34:699][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.21-18.56.34:699][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.21-18.56.34:743][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.472ms to complete.
+[2016.09.21-18.56.34:743][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.587
+[2016.09.21-18.56.34:888][  0]LogCollectionManager: Loaded 0 collections in 0.001970 seconds
+[2016.09.21-18.56.34:996][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Saved/Collections/' took 0.01s
+[2016.09.21-18.56.34:996][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/Developers/Conor/Collections/' took 0.01s
+[2016.09.21-18.56.34:996][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/Collections/' took 0.01s
+[2016.09.21-18.56.34:996][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.09.21-18.56.35:014][  0]LogContentBrowser: Native class hierarchy populated in 0.0181 seconds. Added 2047 classes and 369 folders.
+[2016.09.21-18.56.35:023][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.09.21-18.56.35:023][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.09.21-18.56.35:025][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0011 seconds. Added 12 classes and 0 folders.
+[2016.09.21-18.56.35:035][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.09.21-18.56.35:069][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.09.21-18.56.35:073][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.09.21-18.56.35:086][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.09.21-18.56.35:091][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.09.21-18.56.35:117][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.09.21-18.56.35:117][  0]LogLoad: Full Startup: 10.39 seconds (BP compile: 0.12 seconds)
+[2016.09.21-18.56.35:117][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.09.21-18.56.35:127][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.21-18.56.35:127][  0]LogOcInput: OculusInput pre-init called
+[2016.09.21-18.56.35:245][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.09.21-18.56.35:364][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2016.09.21-18.56.36:351][ 86]LogAssetRegistry: Asset discovery search completed in 8.6791 seconds
+[2016.09.21-18.56.36:351][ 86]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.09.21-18.56.36:351][ 86]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2016.09.21-18.56.42:135][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.09.21-18.56.42:895][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.09.21-18.56.44:484][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
+[2016.09.21-18.56.54:630][825]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.09.21-18.57.05:865][918]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-18.57.05:865][918]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.21-18.57.05:876][918]PIE: New page: PIE session: FirstPersonExampleMap (21 Sep 2016 19:57:05)
+[2016.09.21-18.57.05:876][918]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.09.21-18.57.05:901][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024966s)
+[2016.09.21-18.57.05:902][918]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.09.21-18.57.05:902][918]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2016.09.21-18.57.05:902][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026652s)
+[2016.09.21-18.57.05:934][918]LogInit: XAudio2 using 'BenQ EW2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-18.57.05:938][918]LogInit: FAudioDevice initialized.
+[2016.09.21-18.57.06:004][918]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.09.21-18.57.06:015][918]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.09.21-19.57.06
+[2016.09.21-18.57.06:018][918]LogWorld: Bringing up level for play took: 0.007625
+[2016.09.21-18.57.06:036][918]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2016.09.21-18.57.06:037][918]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.677
+[2016.09.21-18.57.06:037][918]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-18.57.40:369][ 27]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-18.57.40:410][ 27]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-18.57.42:707][287]LogRenderer: Reallocating scene render targets to support 1208x584 (Frame:7421).
+[2016.09.21-18.57.42:764][288]LogRenderer: Reallocating scene render targets to support 1208x592 (Frame:7423).
+[2016.09.21-18.57.42:816][289]LogRenderer: Reallocating scene render targets to support 1208x604 (Frame:7425).
+[2016.09.21-18.57.42:867][290]LogRenderer: Reallocating scene render targets to support 1208x612 (Frame:7427).
+[2016.09.21-18.57.42:916][291]LogRenderer: Reallocating scene render targets to support 1208x620 (Frame:7429).
+[2016.09.21-18.57.42:966][292]LogRenderer: Reallocating scene render targets to support 1208x624 (Frame:7431).
+[2016.09.21-18.57.43:019][293]LogRenderer: Reallocating scene render targets to support 1208x632 (Frame:7433).
+[2016.09.21-18.57.43:067][294]LogRenderer: Reallocating scene render targets to support 1208x648 (Frame:7435).
+[2016.09.21-18.57.43:130][295]LogRenderer: Reallocating scene render targets to support 1208x656 (Frame:7437).
+[2016.09.21-18.57.43:188][296]LogRenderer: Reallocating scene render targets to support 1208x672 (Frame:7439).
+[2016.09.21-18.57.43:239][297]LogRenderer: Reallocating scene render targets to support 1208x680 (Frame:7441).
+[2016.09.21-18.57.43:290][298]LogRenderer: Reallocating scene render targets to support 1208x700 (Frame:7443).
+[2016.09.21-18.57.43:350][299]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:7445).
+[2016.09.21-18.57.43:405][300]LogRenderer: Reallocating scene render targets to support 1208x720 (Frame:7447).
+[2016.09.21-18.57.46:602][632]LogRenderer: Reallocating scene render targets to support 1212x720 (Frame:7791).
+[2016.09.21-18.57.46:703][635]LogRenderer: Reallocating scene render targets to support 1216x720 (Frame:7796).
+[2016.09.21-18.57.46:781][636]LogRenderer: Reallocating scene render targets to support 1220x720 (Frame:7798).
+[2016.09.21-18.57.46:831][637]LogRenderer: Reallocating scene render targets to support 1256x720 (Frame:7800).
+[2016.09.21-18.57.46:889][638]LogRenderer: Reallocating scene render targets to support 1272x720 (Frame:7802).
+[2016.09.21-18.57.46:944][639]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:7804).
+[2016.09.21-18.57.47:011][640]LogRenderer: Reallocating scene render targets to support 1288x720 (Frame:7806).
+[2016.09.21-18.57.47:067][641]LogRenderer: Reallocating scene render targets to support 1292x720 (Frame:7808).
+[2016.09.21-18.57.47:124][642]LogRenderer: Reallocating scene render targets to support 1296x720 (Frame:7810).
+[2016.09.21-18.57.50:595][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.09.21-18.57.51:412][ 92]LogRenderer: Reallocating scene render targets to support 1304x720 (Frame:8280).
+[2016.09.21-18.57.51:458][ 93]LogRenderer: Reallocating scene render targets to support 1320x720 (Frame:8282).
+[2016.09.21-18.57.51:512][ 94]LogRenderer: Reallocating scene render targets to support 1344x720 (Frame:8284).
+[2016.09.21-18.57.51:577][ 95]LogRenderer: Reallocating scene render targets to support 1368x720 (Frame:8286).
+[2016.09.21-18.57.51:626][ 96]LogRenderer: Reallocating scene render targets to support 1416x720 (Frame:8288).
+[2016.09.21-18.57.51:695][ 97]LogRenderer: Reallocating scene render targets to support 1452x720 (Frame:8290).
+[2016.09.21-18.57.51:752][ 98]LogRenderer: Reallocating scene render targets to support 1472x720 (Frame:8292).
+[2016.09.21-18.58.14:301][461]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 111 classes and 0 folders.
+[2016.09.21-19.01.04:993][ 47]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.01.04:993][ 47]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.21-19.01.04:995][ 47]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.09.21-19.01.05:132][ 47]LogPlayLevel: PlayLevel: Blueprint regeneration took 139 ms (1 blueprints)
+[2016.09.21-19.01.05:157][ 47]PIE: New page: PIE session: FirstPersonExampleMap (21 Sep 2016 20:01:05)
+[2016.09.21-19.01.05:157][ 47]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.09.21-19.01.05:176][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019186s)
+[2016.09.21-19.01.05:177][ 47]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.09.21-19.01.05:177][ 47]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2016.09.21-19.01.05:177][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020048s)
+[2016.09.21-19.01.05:234][ 47]LogInit: XAudio2 using 'BenQ EW2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-19.01.05:239][ 47]LogInit: FAudioDevice initialized.
+[2016.09.21-19.01.05:299][ 47]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.09.21-19.01.05:306][ 47]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.09.21-20.01.05
+[2016.09.21-19.01.05:306][ 47]LogWorld: Bringing up level for play took: 0.005554
+[2016.09.21-19.01.05:307][ 47]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.053
+[2016.09.21-19.01.05:307][ 47]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.01.10:564][674]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.01.10:630][674]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.01.42:860][214]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.01.42:861][214]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.21-19.01.42:862][214]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.09.21-19.01.42:983][214]LogPlayLevel: PlayLevel: Blueprint regeneration took 122 ms (1 blueprints)
+[2016.09.21-19.01.43:001][214]PIE: New page: PIE session: FirstPersonExampleMap (21 Sep 2016 20:01:43)
+[2016.09.21-19.01.43:001][214]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.09.21-19.01.43:023][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021717s)
+[2016.09.21-19.01.43:023][214]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.09.21-19.01.43:024][214]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2016.09.21-19.01.43:024][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022784s)
+[2016.09.21-19.01.43:078][214]LogInit: XAudio2 using 'BenQ EW2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-19.01.43:082][214]LogInit: FAudioDevice initialized.
+[2016.09.21-19.01.43:138][214]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.09.21-19.01.43:143][214]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.09.21-20.01.43
+[2016.09.21-19.01.43:144][214]LogWorld: Bringing up level for play took: 0.004282
+[2016.09.21-19.01.43:145][214]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.216
+[2016.09.21-19.01.43:145][214]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.02.12:814][769]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.02.12:885][769]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.02.45:248][239]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.02.45:248][239]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.21-19.02.45:249][239]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.09.21-19.02.45:368][239]LogPlayLevel: PlayLevel: Blueprint regeneration took 120 ms (1 blueprints)
+[2016.09.21-19.02.45:385][239]PIE: New page: PIE session: FirstPersonExampleMap (21 Sep 2016 20:02:45)
+[2016.09.21-19.02.45:385][239]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.09.21-19.02.45:404][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019394s)
+[2016.09.21-19.02.45:405][239]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.09.21-19.02.45:405][239]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2016.09.21-19.02.45:405][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020395s)
+[2016.09.21-19.02.45:461][239]LogInit: XAudio2 using 'BenQ EW2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-19.02.45:466][239]LogInit: FAudioDevice initialized.
+[2016.09.21-19.02.45:515][239]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.09.21-19.02.45:520][239]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.09.21-20.02.45
+[2016.09.21-19.02.45:520][239]LogWorld: Bringing up level for play took: 0.004184
+[2016.09.21-19.02.45:521][239]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.161
+[2016.09.21-19.02.45:521][239]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.02.54:412][302]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.02.54:477][302]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.03.37:515][854]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.03.37:515][854]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.21-19.03.37:517][854]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.09.21-19.03.37:636][854]LogPlayLevel: PlayLevel: Blueprint regeneration took 121 ms (1 blueprints)
+[2016.09.21-19.03.37:654][854]PIE: New page: PIE session: FirstPersonExampleMap (21 Sep 2016 20:03:37)
+[2016.09.21-19.03.37:654][854]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.09.21-19.03.37:673][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019150s)
+[2016.09.21-19.03.37:674][854]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.09.21-19.03.37:674][854]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2016.09.21-19.03.37:674][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020137s)
+[2016.09.21-19.03.37:730][854]LogInit: XAudio2 using 'BenQ EW2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-19.03.37:735][854]LogInit: FAudioDevice initialized.
+[2016.09.21-19.03.37:801][854]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.09.21-19.03.37:806][854]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.09.21-20.03.37
+[2016.09.21-19.03.37:806][854]LogWorld: Bringing up level for play took: 0.004475
+[2016.09.21-19.03.37:807][854]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.447
+[2016.09.21-19.03.37:807][854]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.03.47:063][961]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.03.47:127][961]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.03.48:183][ 70]Cmd: SELECT NONE
+[2016.09.21-19.03.48:882][149]Cmd: SELECT NONE
+[2016.09.21-19.03.49:957][277]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.03.49:957][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.21-19.03.49:957][277]PIE: New page: PIE session: FirstPersonExampleMap (21 Sep 2016 20:03:49)
+[2016.09.21-19.03.49:958][277]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.09.21-19.03.49:973][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015102s)
+[2016.09.21-19.03.49:973][277]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.09.21-19.03.49:974][277]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2016.09.21-19.03.49:974][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016270s)
+[2016.09.21-19.03.50:008][277]LogInit: XAudio2 using 'BenQ EW2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-19.03.50:013][277]LogInit: FAudioDevice initialized.
+[2016.09.21-19.03.50:063][277]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.09.21-19.03.50:073][277]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.09.21-20.03.50
+[2016.09.21-19.03.50:074][277]LogWorld: Bringing up level for play took: 0.009373
+[2016.09.21-19.03.50:076][277]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.716
+[2016.09.21-19.03.50:077][277]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.03.52:061][510]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.03.52:093][510]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.04.02:537][733]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2016.09.21-19.04.03:254][800]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2016.09.21-19.07.07:520][ 11]LogEditorTransaction: Undo Delete current selection
+[2016.09.21-19.07.37:084][276]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CallFunction_684 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_684
+[2016.09.21-19.07.37:084][276]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_684.EdGraphPin_608''
+[2016.09.21-19.07.37:085][276]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CallFunction_684 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_684
+[2016.09.21-19.07.37:085][276]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_684.EdGraphPin_610''
+[2016.09.21-19.07.37:085][276]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CallFunction_246 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_246
+[2016.09.21-19.07.37:085][276]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_246.EdGraphPin_613''
+[2016.09.21-19.07.37:085][276]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CallFunction_246 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_246
+[2016.09.21-19.07.37:086][276]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_246.EdGraphPin_615''
+[2016.09.21-19.08.00:440][ 21]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.08.00:440][ 21]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.21-19.08.00:457][ 21]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.09.21-19.08.00:593][ 21]LogPlayLevel: PlayLevel: Blueprint regeneration took 152 ms (1 blueprints)
+[2016.09.21-19.08.00:612][ 21]PIE: New page: PIE session: FirstPersonExampleMap (21 Sep 2016 20:08:00)
+[2016.09.21-19.08.00:613][ 21]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.09.21-19.08.00:632][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019722s)
+[2016.09.21-19.08.00:633][ 21]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.09.21-19.08.00:634][ 21]LogPlayLevel: PIE: World Init took: (0.001386s)
+[2016.09.21-19.08.00:634][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021563s)
+[2016.09.21-19.08.00:688][ 21]LogInit: XAudio2 using 'BenQ EW2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-19.08.00:697][ 21]LogInit: FAudioDevice initialized.
+[2016.09.21-19.08.00:782][ 21]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.09.21-19.08.00:787][ 21]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.09.21-20.08.00
+[2016.09.21-19.08.00:788][ 21]LogWorld: Bringing up level for play took: 0.004373
+[2016.09.21-19.08.00:789][ 21]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.572
+[2016.09.21-19.08.00:789][ 21]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.08.03:020][217]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.08.03:104][217]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.08.09:010][731]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.08.09:010][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.21-19.08.09:010][731]PIE: New page: PIE session: FirstPersonExampleMap (21 Sep 2016 20:08:09)
+[2016.09.21-19.08.09:010][731]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.09.21-19.08.09:031][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021179s)
+[2016.09.21-19.08.09:032][731]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.09.21-19.08.09:032][731]LogPlayLevel: PIE: World Init took: (0.001011s)
+[2016.09.21-19.08.09:032][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022439s)
+[2016.09.21-19.08.09:084][731]LogInit: XAudio2 using 'BenQ EW2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-19.08.09:088][731]LogInit: FAudioDevice initialized.
+[2016.09.21-19.08.09:153][731]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.09.21-19.08.09:157][731]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.09.21-20.08.09
+[2016.09.21-19.08.09:158][731]LogWorld: Bringing up level for play took: 0.004125
+[2016.09.21-19.08.09:159][731]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.202
+[2016.09.21-19.08.09:159][731]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.08.11:945][ 62]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.08.12:030][ 62]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.08.32:516][643]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.08.32:516][643]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.21-19.08.32:517][643]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.09.21-19.08.32:636][643]LogPlayLevel: PlayLevel: Blueprint regeneration took 120 ms (1 blueprints)
+[2016.09.21-19.08.32:654][643]PIE: New page: PIE session: FirstPersonExampleMap (21 Sep 2016 20:08:32)
+[2016.09.21-19.08.32:654][643]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.09.21-19.08.32:672][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018141s)
+[2016.09.21-19.08.32:673][643]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.09.21-19.08.32:673][643]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2016.09.21-19.08.32:673][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019029s)
+[2016.09.21-19.08.32:728][643]LogInit: XAudio2 using 'BenQ EW2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-19.08.32:737][643]LogInit: FAudioDevice initialized.
+[2016.09.21-19.08.32:822][643]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.09.21-19.08.32:828][643]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.09.21-20.08.32
+[2016.09.21-19.08.32:828][643]LogWorld: Bringing up level for play took: 0.005166
+[2016.09.21-19.08.32:830][643]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.531
+[2016.09.21-19.08.32:830][643]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.08.36:058][ 27]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.08.36:126][ 27]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.09.23:943][501]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.09.23:943][501]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.21-19.09.23:944][501]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.09.21-19.09.24:065][501]LogPlayLevel: PlayLevel: Blueprint regeneration took 122 ms (1 blueprints)
+[2016.09.21-19.09.24:084][501]PIE: New page: PIE session: FirstPersonExampleMap (21 Sep 2016 20:09:24)
+[2016.09.21-19.09.24:084][501]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.09.21-19.09.24:102][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018063s)
+[2016.09.21-19.09.24:103][501]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.09.21-19.09.24:103][501]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2016.09.21-19.09.24:103][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019211s)
+[2016.09.21-19.09.24:160][501]LogInit: XAudio2 using 'BenQ EW2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-19.09.24:164][501]LogInit: FAudioDevice initialized.
+[2016.09.21-19.09.24:236][501]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.09.21-19.09.24:241][501]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.09.21-20.09.24
+[2016.09.21-19.09.24:242][501]LogWorld: Bringing up level for play took: 0.004619
+[2016.09.21-19.09.24:243][501]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.882
+[2016.09.21-19.09.24:243][501]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.09.26:197][732]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.09.26:266][732]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.10.02:342][246]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.10.02:343][246]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.21-19.10.02:344][246]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.09.21-19.10.02:464][246]LogPlayLevel: PlayLevel: Blueprint regeneration took 121 ms (1 blueprints)
+[2016.09.21-19.10.02:485][246]PIE: New page: PIE session: FirstPersonExampleMap (21 Sep 2016 20:10:02)
+[2016.09.21-19.10.02:485][246]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.09.21-19.10.02:501][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016248s)
+[2016.09.21-19.10.02:502][246]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.09.21-19.10.02:502][246]LogPlayLevel: PIE: World Init took: (0.000925s)
+[2016.09.21-19.10.02:503][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017498s)
+[2016.09.21-19.10.02:555][246]LogInit: XAudio2 using 'BenQ EW2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-19.10.02:559][246]LogInit: FAudioDevice initialized.
+[2016.09.21-19.10.02:606][246]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.09.21-19.10.02:611][246]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.09.21-20.10.02
+[2016.09.21-19.10.02:611][246]LogWorld: Bringing up level for play took: 0.003876
+[2016.09.21-19.10.02:612][246]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.252
+[2016.09.21-19.10.02:612][246]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.10.04:470][465]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.10.04:541][465]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.10.45:060][819]LogEditorTransaction: Undo Delete current selection
+[2016.09.21-19.11.00:917][950]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.09.21-19.11.01:082][950]BlueprintEditorCompileResults: Info [0876.36] Compile of FirstPersonCharacter successful! [in 164 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2016.09.21-19.11.03:752][137]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.11.03:752][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.21-19.11.03:752][137]PIE: New page: PIE session: FirstPersonExampleMap (21 Sep 2016 20:11:03)
+[2016.09.21-19.11.03:752][137]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.09.21-19.11.03:772][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019946s)
+[2016.09.21-19.11.03:773][137]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.09.21-19.11.03:773][137]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2016.09.21-19.11.03:773][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021129s)
+[2016.09.21-19.11.03:832][137]LogInit: XAudio2 using 'BenQ EW2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-19.11.03:836][137]LogInit: FAudioDevice initialized.
+[2016.09.21-19.11.03:905][137]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.09.21-19.11.03:910][137]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.09.21-20.11.03
+[2016.09.21-19.11.03:911][137]LogWorld: Bringing up level for play took: 0.004068
+[2016.09.21-19.11.03:912][137]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.551
+[2016.09.21-19.11.03:912][137]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.11.09:572][768]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.11.09:653][768]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.12.56:584][ 77]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.12.56:584][ 77]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.21-19.12.56:586][ 77]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.09.21-19.12.56:704][ 77]LogPlayLevel: PlayLevel: Blueprint regeneration took 119 ms (1 blueprints)
+[2016.09.21-19.12.56:721][ 77]PIE: New page: PIE session: FirstPersonExampleMap (21 Sep 2016 20:12:56)
+[2016.09.21-19.12.56:722][ 77]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.09.21-19.12.56:740][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018530s)
+[2016.09.21-19.12.56:741][ 77]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.09.21-19.12.56:741][ 77]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2016.09.21-19.12.56:741][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019716s)
+[2016.09.21-19.12.56:808][ 77]LogInit: XAudio2 using 'BenQ EW2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-19.12.56:812][ 77]LogInit: FAudioDevice initialized.
+[2016.09.21-19.12.56:882][ 77]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.09.21-19.12.56:886][ 77]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.09.21-20.12.56
+[2016.09.21-19.12.56:887][ 77]LogWorld: Bringing up level for play took: 0.004015
+[2016.09.21-19.12.56:888][ 77]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.473
+[2016.09.21-19.12.56:888][ 77]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.13.02:663][766]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.13.02:753][766]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.13.40:540][729]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.13.40:540][729]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.21-19.13.40:551][729]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.09.21-19.13.41:402][729]LogPlayLevel: PlayLevel: Blueprint regeneration took 862 ms (1 blueprints)
+[2016.09.21-19.13.41:421][729]PIE: New page: PIE session: FirstPersonExampleMap (21 Sep 2016 20:13:41)
+[2016.09.21-19.13.41:421][729]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.09.21-19.13.41:437][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016202s)
+[2016.09.21-19.13.41:438][729]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.09.21-19.13.41:438][729]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2016.09.21-19.13.41:438][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017253s)
+[2016.09.21-19.13.41:491][729]LogInit: XAudio2 using 'BenQ EW2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-19.13.41:496][729]LogInit: FAudioDevice initialized.
+[2016.09.21-19.13.41:546][729]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.09.21-19.13.41:550][729]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.09.21-20.13.41
+[2016.09.21-19.13.41:551][729]LogWorld: Bringing up level for play took: 0.003696
+[2016.09.21-19.13.41:552][729]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.191
+[2016.09.21-19.13.41:552][729]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.13.42:795][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.13.42:871][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.13.45:580][ 82]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.13.45:580][ 82]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.21-19.13.45:580][ 82]PIE: New page: PIE session: FirstPersonExampleMap (21 Sep 2016 20:13:45)
+[2016.09.21-19.13.45:581][ 82]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.09.21-19.13.45:597][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016743s)
+[2016.09.21-19.13.45:598][ 82]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.09.21-19.13.45:598][ 82]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2016.09.21-19.13.45:598][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017777s)
+[2016.09.21-19.13.45:654][ 82]LogInit: XAudio2 using 'BenQ EW2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-19.13.45:658][ 82]LogInit: FAudioDevice initialized.
+[2016.09.21-19.13.45:722][ 82]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.09.21-19.13.45:727][ 82]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.09.21-20.13.45
+[2016.09.21-19.13.45:727][ 82]LogWorld: Bringing up level for play took: 0.003761
+[2016.09.21-19.13.45:728][ 82]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.367
+[2016.09.21-19.13.45:728][ 82]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.14.35:988][108]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.14.36:075][108]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.09.21-19.14.41:212][510]LogSavePackage: Save=1271.82ms
+[2016.09.21-19.14.41:212][510]LogSavePackage: Moving 'D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Saved/FirstPersonExampleMapC65CCEA4414327F9E25BDD9E178ADC3E.tmp' to 'D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.09.21-19.14.41:215][510]LogSavePackage:Display: Finished SavePackage D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.09.21-19.14.41:228][510]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.371
+[2016.09.21-19.14.47:005][ 54]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.09.21-19.14.58:349][880]LogSavePackage: Save=47.44ms
+[2016.09.21-19.14.58:349][880]LogSavePackage: Moving 'D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Saved/FirstPersonCharacter1EDA565A47FDA5F1ED684DB9DB832995.tmp' to 'D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.09.21-19.14.58:350][880]LogSavePackage:Display: Finished SavePackage D:/Repositories/ConorAndEilidhProject/JudasAndPontius/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.09.21-19.14.58:618][881]Cmd: QUIT_EDITOR
+[2016.09.21-19.14.59:188][881]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.21-19.14.59:240][881]LogExit: Preparing to exit.
+[2016.09.21-19.15.00:028][881]LogExit: Editor shut down
+[2016.09.21-19.15.00:028][881]LogExit: Transaction tracking system shut down
+[2016.09.21-19.15.00:203][881]LogObj: Freed 0b from 0 cluster array pools.
+[2016.09.21-19.15.00:203][881]LogExit: Object subsystem successfully closed.
+[2016.09.21-19.15.00:224][881]LogD3D11RHI: Shutdown
+[2016.09.21-19.15.00:224][881]LogD3D11RHI: CleanupD3DDevice
+[2016.09.21-19.15.00:335][881]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.09.21-19.15.00:350][881]LogModuleManager: Shutting down and abandoning module BlueprintGraph (215)
+[2016.09.21-19.15.00:350][881]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (214)
+[2016.09.21-19.15.00:350][881]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.09.21-19.15.00:350][881]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.09.21-19.15.00:350][881]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.09.21-19.15.00:350][881]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.09.21-19.15.00:350][881]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.09.21-19.15.00:351][881]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.09.21-19.15.00:351][881]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.09.21-19.15.00:351][881]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.09.21-19.15.00:351][881]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.09.21-19.15.00:351][881]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.09.21-19.15.00:351][881]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.09.21-19.15.00:352][881]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.09.21-19.15.00:787][881]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.09.21-19.15.00:787][881]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.09.21-19.15.00:787][881]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.09.21-19.15.00:787][881]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.09.21-19.15.00:787][881]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.09.21-19.15.00:787][881]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.09.21-19.15.00:787][881]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.09.21-19.15.00:787][881]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.09.21-19.15.00:788][881]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.09.21-19.15.00:788][881]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.09.21-19.15.00:788][881]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.09.21-19.15.00:788][881]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.09.21-19.15.00:788][881]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.09.21-19.15.00:788][881]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.09.21-19.15.00:788][881]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.09.21-19.15.00:788][881]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.09.21-19.15.00:788][881]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.09.21-19.15.00:788][881]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.09.21-19.15.00:788][881]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.09.21-19.15.00:788][881]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.09.21-19.15.00:788][881]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.09.21-19.15.00:789][881]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.09.21-19.15.00:789][881]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.09.21-19.15.00:789][881]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.09.21-19.15.00:789][881]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.09.21-19.15.00:833][881]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.09.21-19.15.00:833][881]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.09.21-19.15.00:833][881]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.09.21-19.15.00:833][881]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.09.21-19.15.00:833][881]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.09.21-19.15.00:833][881]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.09.21-19.15.00:833][881]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.09.21-19.15.00:833][881]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.09.21-19.15.00:833][881]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.09.21-19.15.00:833][881]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.09.21-19.15.00:833][881]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.09.21-19.15.00:833][881]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.09.21-19.15.00:833][881]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.09.21-19.15.00:833][881]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.09.21-19.15.00:834][881]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.09.21-19.15.00:834][881]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.09.21-19.15.00:834][881]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.09.21-19.15.00:834][881]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.09.21-19.15.00:834][881]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.09.21-19.15.00:834][881]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.09.21-19.15.00:834][881]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.09.21-19.15.00:834][881]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.09.21-19.15.00:834][881]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.09.21-19.15.00:834][881]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.09.21-19.15.00:834][881]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.09.21-19.15.00:834][881]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.09.21-19.15.00:837][881]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.09.21-19.15.00:837][881]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.09.21-19.15.00:837][881]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.09.21-19.15.00:837][881]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.09.21-19.15.00:837][881]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.09.21-19.15.00:837][881]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.09.21-19.15.00:837][881]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.09.21-19.15.00:837][881]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.09.21-19.15.00:837][881]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.09.21-19.15.00:837][881]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.09.21-19.15.00:837][881]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.09.21-19.15.00:837][881]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.09.21-19.15.00:837][881]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.09.21-19.15.00:837][881]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.09.21-19.15.00:837][881]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.09.21-19.15.00:837][881]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.09.21-19.15.00:837][881]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.09.21-19.15.00:838][881]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.09.21-19.15.00:838][881]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.09.21-19.15.00:838][881]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.09.21-19.15.00:838][881]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.09.21-19.15.00:838][881]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.09.21-19.15.00:838][881]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.09.21-19.15.00:838][881]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.09.21-19.15.00:838][881]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.09.21-19.15.00:838][881]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.09.21-19.15.00:838][881]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.09.21-19.15.00:838][881]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.09.21-19.15.00:838][881]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.09.21-19.15.00:838][881]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.09.21-19.15.00:838][881]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.09.21-19.15.00:838][881]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.09.21-19.15.00:839][881]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.09.21-19.15.00:839][881]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.09.21-19.15.00:840][881]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.09.21-19.15.00:940][881]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.09.21-19.15.00:940][881]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.09.21-19.15.00:940][881]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.09.21-19.15.00:940][881]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.09.21-19.15.00:940][881]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.09.21-19.15.00:940][881]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.09.21-19.15.00:940][881]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.09.21-19.15.00:940][881]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.09.21-19.15.00:940][881]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.09.21-19.15.00:940][881]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.09.21-19.15.00:940][881]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.09.21-19.15.00:940][881]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.09.21-19.15.00:940][881]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.09.21-19.15.00:940][881]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.09.21-19.15.00:940][881]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.09.21-19.15.00:941][881]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.09.21-19.15.00:941][881]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.09.21-19.15.00:941][881]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.09.21-19.15.00:941][881]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.09.21-19.15.00:941][881]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.09.21-19.15.00:941][881]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.09.21-19.15.00:941][881]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.09.21-19.15.00:941][881]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.09.21-19.15.00:941][881]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.09.21-19.15.00:946][881]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.09.21-19.15.00:946][881]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.09.21-19.15.00:946][881]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.09.21-19.15.00:946][881]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.09.21-19.15.00:946][881]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.09.21-19.15.00:946][881]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.09.21-19.15.00:948][881]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.09.21-19.15.01:069][881]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.09.21-19.15.01:069][881]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.09.21-19.15.01:069][881]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.09.21-19.15.01:069][881]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.09.21-19.15.01:113][881]LogDerivedDataCache: Shutdown
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.09.21-19.15.01:113][881]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.09.21-19.15.02:614][881]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.09.21-19.15.02:614][881]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.09.21-19.15.02:614][881]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.09.21-19.15.02:614][881]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.09.21-19.15.02:614][881]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.09.21-19.15.02:614][881]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.09.21-19.15.02:614][881]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.09.21-19.15.02:617][881]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.09.21-19.15.02:617][881]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.09.21-19.15.02:617][881]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.09.21-19.15.02:617][881]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.09.21-19.15.02:617][881]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.09.21-19.15.02:617][881]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.09.21-19.15.02:617][881]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.09.21-19.15.02:617][881]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.09.21-19.15.02:617][881]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.09.21-19.15.02:617][881]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.09.21-19.15.02:619][881]LogExit: Exiting.
+[2016.09.21-19.15.02:628][881]Log file closed, 09/21/16 20:15:02
